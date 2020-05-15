@@ -1,0 +1,23 @@
+git commands -
+
+1. clone repo to local system 
+-> git clone <https-repo-url>
+
+2. add files to local git
+ -> git add . {'.' means you want to add all the files in the folder otherwise use} git add <filename>
+
+3. commit changes locally 
+->  git commit -m "type your message here"
+
+4. push code to git account 
+-> git push origin <branch name>
+
+5. see your all the previous commits history
+ -> git log --graph
+
+6. check status after adding or commiting files locally
+-> git status
+
+7. revert back change to a particular commit
+-> git reset <hash name>
+
